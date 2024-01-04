@@ -48,10 +48,6 @@ p{
 
 
 .all{
-    position: absolute;
-    top: 23.5%;
-    left: 40%;
-    margin-top: 50px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     margin: auto;

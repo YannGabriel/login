@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'heavi';
+    src: url(../fontes/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: 'kany';
+    src: url(../fontes/kenyan\ coffee\ rg\ it.otf);
+}
+
+@font-face {
+    font-family: 'magic';
+    src: url(../fontes/Magical\ Childhood.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --p-color: #C1E8FF;
+    --bckg-color: #052659; 
+    --title-color: white; 
+}
+
+body{
+    margin-top: 100px;
+    margin: auto;
+    width: 100%;
+    background-image: url(../imagens/back.jpg );
+}
+
+h1{
+    padding-bottom: 15px;
+    padding-top: 80px;
+    font-family: 'heavi';
+    color: var(--title-color);
+}
+
+p{
+    font-family: 'kany';
+    color: var(--p-color);
+}
+
+.all{
+    margin-top: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    width: 390px;
+    border: 2px solid white;
+}

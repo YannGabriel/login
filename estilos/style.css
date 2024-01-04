@@ -25,11 +25,12 @@
 }
 
 body{
-    background-position: fixed;
+    background-position: center center;
     margin-top: 100px;
     margin: auto;
     width: 100%;
-    background-image: url(../imagens/back.jpg );
+    background: rgb(73,223,254);
+    background: linear-gradient(87deg, rgba(73,223,254,0.6755952380952381) 0%, rgba(22,99,249,0.9641106442577031) 35%, rgba(81,0,179,1) 100%);
 }
 
 h1{
@@ -47,15 +48,18 @@ p{
 
 
 .all{
+    position: absolute;
+    top: 23.5%;
+    left: 40%;
     margin-top: 50px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     margin: auto;
-    height: 475px;
+    height: 420px;
     border-radius: 10px;
     align-items: center;
     text-align: center;
-    width: 370px;
+    width: 330px;
     border: solid 1.2px white;
 }
 

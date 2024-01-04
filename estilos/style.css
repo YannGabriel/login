@@ -25,12 +25,10 @@
 }
 
 body{
-    background-position: center center;
     margin-top: 100px;
     margin: auto;
     width: 100%;
-    background: rgb(73,223,254);
-    background: linear-gradient(87deg, rgba(73,223,254,0.6755952380952381) 0%, rgba(22,99,249,0.9641106442577031) 35%, rgba(81,0,179,1) 100%);
+    background-image: url(../imagens/looking-far-away-4k-lb.jpg);
 }
 
 h1{

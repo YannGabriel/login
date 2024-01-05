@@ -17,25 +17,23 @@
             <br>
              para aproveitar o nosso site!
         </p>
+
+        <form autocomplete="on" action="form.php">
             <div class="one-1-form-u-p-ip">
                 <div class="input-text" id="username">
-                    <form autocomplete="off">
-                        <input type="text" placeholder="Nome do usuario:" id="iuser">
-                    </form>
+                        <input type="text" placeholder="Usuario:" id="iuser" required minlength="4" maxlength="10" autocomplete="username" size="10">
                 </div>
-    
+
                 <div class="input-pass" id="password">
-                    <form autocomplete="off" method="post">
-                        <input type="password" placeholder="Insira sua senha:">
-                    </form>
+                        <input type="password" placeholder="Senha:" minlength="8" maxlength="10" size="8">
                 </div>
             </div>
     
             <div class="send-button" id="button">
-                <label for="Login" >
-                    <input type="submit" placeholder="Login" id="Login">
-                </label>
+
+                    <input type="submit" value="Login" id="Login">
             </div>
+        </form>
     
             <div class="register-new-a">
                 <p class="text" id="register">

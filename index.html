@@ -5,45 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
-    <link rel="icon" type="image/png" sizes="512x512" href="imagens/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="imagens/favicon.png">
     <title>Login</title>
 </head>
-<body style="margin-top: 140px;">
-        <div class="all" id="evt-1-inputs">
-        <h1 class="text" id="title-main">Bem vindo!</h1>
+<body>
 
-        <p class="text" id="intro-log">
-            Faça Login agora mesmo na sua conta
+    <main>
+        <h1>
+            Asthetic Design
+        </h1>
+
+        <br>
+
+        <div class="form-all-ip-1">
             <br>
-             para aproveitar o nosso site!
-        </p>
+            <p>
+                Faça seu Login e 
+                <br>
+                aproveite o nosso site!
+            </p>
 
-        <form autocomplete="on" action="form.php">
-            <div class="one-1-form-u-p-ip">
-                <div class="input-text" id="username">
-                        <input type="text" placeholder="Usuario:" id="iuser" required minlength="4" maxlength="10" autocomplete="username" size="10">
-                </div>
+            <br>
 
-                <div class="input-pass" id="password">
-                        <input type="password" placeholder="Senha:" minlength="8" maxlength="10" size="8">
-                </div>
-            </div>
-    
-            <div class="send-button" id="button">
+            <form autocomplete="off" action="form.php" method="post">
 
-                    <input type="submit" value="Login" id="Login">
-            </div>
-        </form>
-    
-            <div class="register-new-a">
-                <p class="text" id="register">
-                    Não possui uma conta?
-                </p>
-    
-                <a href="register.html" class="other-page" id="register">
-                    Registre-se
-                </a>
-            </div>
+                <input type="text" placeholder="Insira seu email, nome ou número:" required minlength="3" maxlength="10" autocomplete="username" size="10" class="quest">
+
+                <br><br>
+
+                <input type="password" placeholder="Insira sua senha" required minlength="8" autocomplete="current-password" size="8" class="quest">
+
+                <br><br>
+
+                <input type="submit" value="Login" class="btn" style="display: flex; justify-content: center; text-align: center;">
+            </form>
+            
+            <br>
+            <hr>
+
+            <a href="regitre-se.html" target="_blank" style="margin-top: 10px;">
+                Não possui uma conta?
+                <br>
+                Registre-se
+            </a>
         </div>
+    </main>
+
+    <footer>
+        <h2>Página desenvolvida por:</h2>
+        <a href="https://yanngabriel.github.io/portfolio" target="_blank"><img src="imagens/logo-grey.png"></a>
+    </footer>
+
 </body>
 </html>

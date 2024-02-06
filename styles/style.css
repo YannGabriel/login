@@ -18,9 +18,8 @@ body{
 }
 #hello{
     border-radius: 10px 10px 0px 0px;
-    position: absolute;
-    top:7%;
-    left: 12%;
+    margin-top: 60px;
+    margin: auto;
     width: 390px;
     text-align: center;
     align-items: center;
@@ -28,7 +27,22 @@ body{
     background-color: var(--extra);
 }
 
+button{
+    background-color: var(--text);
+    color: var(--extra);
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+button:hover{
+    background-color: var(--detils);
+    color: var(--text);
+}
+
 fieldset{
+    border-top: none;
+    z-index: 0;
     background-color: #292C35;
     position: absolute;
     top: 50%;

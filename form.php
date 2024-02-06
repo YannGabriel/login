@@ -1,1 +1,0 @@
-Suas informações foram recebidas, Obrigado!

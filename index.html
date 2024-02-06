@@ -3,62 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
-    <link rel="icon" type="image/png" sizes="512x512" href="imagens/favicon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
 
-    <main>
-        <h1>
-            Asthetic Design
-        </h1>
+    <div id="hello">
 
+        <br><br>
+
+        <h1>Bem-Vindo</h1>
         <br>
+        <p>Faça seu login no nosso site para aproveitar <br> todas nossas ofertas e novidades!</p>
 
-        <div class="form-all-ip-1">
-            <br>
-            <p>
-                Faça seu Login e 
-                <br>
-                aproveite o nosso site!
-            </p>
+        <br><br>
 
-            <br>
+        <p>Já possui uma conta?</p>
+        <button>Conecte-se</button>
+    </div>
 
-            <form autocomplete="off" action="form.php" method="post">
-
-                <input type="text" placeholder="Insira seu email, nome ou número:" 
-                required minlength="3" maxlength="10" autocomplete="username" size="10" class="quest">
-
-                <br><br>
-
-                <input type="password" placeholder="Insira sua senha" required minlength="8" 
-                autocomplete="current-password" size="8" class="quest">
-
-                <br><br>
-
-                <input type="submit" value="Login" class="btn" 
-                style="display: flex; justify-content: center; text-align: center;">
-            </form>
-            
-            <br>
-            <hr>
-
-            <a href="regitre-se.html" target="_blank" style="margin-top: 10px;">
-                Não possui uma conta?
-                <br>
-                Registre-se
-            </a>
+    <fieldset>
+        <h2>Cadastre-se</h2>
+        <div class="medias">
+            <i class="gg-facebook"></i>
+            <i class="gg-google"></i>
         </div>
-    </main>
 
-    <footer>
-        <h2>Página desenvolvida por:</h2>
-        <a href="https://yanngabriel.github.io/portfolio" 
-        target="_blank"><img src="imagens/logo-grey.png"></a>
-    </footer>
-
+        <br><br><br>
+        
+        <form action="">
+            <label for="iname"></label>
+            <input type="text" minlength="3" maxlength="12" autocomplete="name" id="iname" required>
+            <br>
+            <br>
+            <label for="isenha"></label>
+            <input type="password" minlength="8" maxlength="12" required>
+        </form>
+    </fieldset>
 </body>
 </html>

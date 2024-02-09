@@ -37,3 +37,19 @@ fieldset{
     width: 380px;
     align-items: center-;
 }
+
+i{
+    display: inline-block;
+    width: 5%;
+}
+
+input{
+    background-color: var(--extra);
+    color: var(--detils);
+    border: none;
+    border-bottom: 1px solid var(--detils);
+    display: inline-block;
+    width: 85%;
+    padding: 3px;
+    text-align: center;
+}

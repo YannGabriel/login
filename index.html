@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/password.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
             <button>Conecte-se</button>
 
             <br><br>
-            
+
         </div>
         <fieldset>
             <h2>Cadastre-se</h2>
@@ -33,11 +35,13 @@
             <br><br><br>
             <form action="">
                 <label for="iname"></label>
-                <input type="text" minlength="3" maxlength="12" autocomplete="name" id="iname" required>
+                <i class="gg-user"></i>
+                <input type="text" minlength="3" maxlength="12" autocomplete="name" id="iname" required placeholder="Nome ou Email de usuráio">
                 <br>
                 <br>
                 <label for="isenha"></label>
-                <input type="password" minlength="8" maxlength="12" required>
+                <i class="gg-password"></i>
+                <input type="password" minlength="8" maxlength="12" required placeholder="Sua Senha">
             </form>
         </fieldset>
     </main>

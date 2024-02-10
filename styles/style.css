@@ -131,7 +131,7 @@ button:hover{
 
 fieldset{
     animation: bottom 0.5s ease-in;
-    box-shadow: 0px 15px 20px var(--detils);
+    box-shadow: 0px 5px 20px var(--detils);
     border-radius: 0px 0px 14px 14px;
     border: 2px solid var(--extra);
     background-color: var(--extra);
@@ -161,3 +161,11 @@ textarea:focus, input:focus, select:focus {
     outline: 0;
     border-bottom: 1px solid var(--detils);
 } 
+
+#i-sub{
+    border: 1px solid var(--detils);
+    border-radius: 9px;
+    width: 85%;
+    padding: 8px;
+    margin-top: 50px;
+}

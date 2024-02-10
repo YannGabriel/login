@@ -7,43 +7,64 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/password.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/lock.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
 
     <main>
         <div id="hello">
-            <br><br>
-            <h1>Bem-Vindo</h1>
-            <br>
-            <p>Faça seu login no nosso site para aproveitar <br> todas nossas ofertas e novidades!</p>
-            <br><br>
-            <p>Já possui uma conta?</p>
-            <button>Conecte-se</button>
 
             <br><br>
+
+            <h1>Bem-Vindo</h1>
+
+            <br>
+
+            <p>Faça seu login no nosso site para aproveitar 
+            <br> 
+            todas nossas ofertas e novidades!</p>
+
+            <br><br>
+
+            <p>Não possui uma conta?</p>
+
+            <br>
+
+            <button>Crie uma!</button>
+
+            <br><br><br><br>
 
         </div>
+
         <fieldset>
+            <br>
             <h2>Cadastre-se</h2>
             <br>
             <div class="medias">
                 <i class="gg-facebook" style="display: inline-block;"></i>
                 <i class="gg-google" style="display: inline-block;"></i>
             </div>
+
             <br><br><br>
+
             <form action="">
                 <label for="iname"></label>
-                <i class="gg-user"></i>
+                <i class="gg-user" id="i-i"></i>
                 <input type="text" minlength="3" maxlength="12" autocomplete="name" id="iname" required placeholder="Nome ou Email de usuráio">
+
                 <br>
                 <br>
                 <label for="isenha"></label>
-                <i class="gg-password"></i>
+
+                <i class="gg-lock" id="i-i"></i>
                 <input type="password" minlength="8" maxlength="12" required placeholder="Sua Senha">
             </form>
+
+            <br><br><br><br>
+
         </fieldset>
+
     </main>
 
 </body>

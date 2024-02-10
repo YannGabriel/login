@@ -31,6 +31,15 @@
     }
 }
 
+@keyframes t-r{
+    from{
+        transform: translate(450px , -30px);
+    }
+
+    to{
+        transform: translate(0px , 0px);
+    }
+}
 
 :root{
     --bckg: #17181D;
@@ -40,9 +49,11 @@
 }
 
 body{ 
+    overflow-x: hidden;
+    overflow-y: hidden;
     margin: auto;
     width: 400px;
-    background-image: url(../images/test-bckg.png);
+    background-color: var(--bckg);
     background-position: center center;
     color: var(--text);
     text-align: center;
@@ -74,7 +85,7 @@ h1{
 }
 
 #hello p{
-    font-size: 1.2em;
+    font-size: 1.2 em;
     font-family: cool;
 }
 

@@ -41,6 +41,27 @@
     }
 }
 
+@keyframes b-l {
+    from{
+        transform: translate( -50px , -50px);
+    }
+
+    to{
+        transform: translate(0px , 0px);
+    }
+}
+
+@keyframes t-l{
+    from{
+        transform: translate(-50px , -30px);
+    }
+
+    to{
+        transform: translate(0px , 0px);
+    }
+}
+
+
 :root{
     --bckg: #17181D;
     --detils: #E09145;

@@ -26,10 +26,13 @@ main{
 }
 
 #hello{
-    box-shadow: 0px 5px 20px var(--detils);
+    box-shadow: 0px -3px 20px var(--detils);
     border-radius: 18px 18px 18px 18px;
     text-align: center;
-    background-color: var(--extra);
+    background-color: var(--detils);
+    color: var(--bckg);
+    position: relative;
+    top: 10px;
     width: 400px;
     height: 250px;
 }
@@ -40,7 +43,7 @@ fieldset{
     border: 2px solid var(--extra);
     background-color: var(--extra);
     margin: auto;
-    width: 400px;
+    width: 395px;
     align-items: center;
 }
 

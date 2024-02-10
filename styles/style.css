@@ -29,8 +29,7 @@
     --extra: #292C35;
 }
 
-body{
-    
+body{ 
     margin: auto;
     width: 400px;
     background-image: url(../images/test-bckg.png);
@@ -84,10 +83,4 @@ input{
     width: 85%;
     padding: 3px;
     text-align: center;
-}
-
-input:focus{
-    color: var(--detils);
-    border: none;
-    background-color: #fff;
 }

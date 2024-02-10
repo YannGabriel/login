@@ -3,6 +3,25 @@
     padding: 0px;
 }
 
+@keyframes top{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(1px);
+    }
+}
+
+@keyframes bottom{
+    from{
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(1px);
+    }
+}
+
+
 :root{
     --bckg: #17181D;
     --detils: #E09145;
@@ -11,9 +30,11 @@
 }
 
 body{
+    
     margin: auto;
     width: 400px;
-    background-color: var(--bckg);
+    background-image: url(../images/test-bckg.png);
+    background-position: center center;
     color: var(--text);
     text-align: center;
 }
@@ -26,6 +47,7 @@ main{
 }
 
 #hello{
+    animation: top 0.7s;
     box-shadow: 0px -3px 20px var(--detils);
     border-radius: 18px 18px 18px 18px;
     text-align: center;
@@ -38,6 +60,7 @@ main{
 }
 
 fieldset{
+    animation: bottom 0.5s ease-in;
     box-shadow: 0px 15px 20px var(--detils);
     border-radius: 0px 0px 14px 14px;
     border: 2px solid var(--extra);

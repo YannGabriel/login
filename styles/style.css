@@ -176,6 +176,7 @@ textarea:focus, input:focus, select:focus {
     margin-top: 50px;
 }
 
+/*
 footer > a > img{
     background-color: var(--extra);
     border-radius: 50%;
@@ -185,3 +186,4 @@ footer > a > img{
     width: 60px;
     height: 50px;
 }
+*/

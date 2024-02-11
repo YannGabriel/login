@@ -109,7 +109,8 @@ h1{
     font-family: cool;
 }
 
-button{   
+button{
+    cursor: pointer;
     padding: 10px;
     border-radius: 4px;
     border: none;
@@ -125,6 +126,7 @@ button:hover{
 }
 
 .medias i{
+    cursor: pointer;
     color: var(--detils);
     margin: 10px;
 }
@@ -155,6 +157,10 @@ input{
     padding: 3px;
 }
 
+input::placeholder{
+    color: var(--detils);
+}
+
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -163,6 +169,7 @@ textarea:focus, input:focus, select:focus {
 } 
 
 #i-sub{
+    cursor: pointer;
     border: 1px solid var(--detils);
     border-radius: 9px;
     width: 85%;
